@@ -1,0 +1,11 @@
+name: repo7
+on:
+  workflow_dispatch:
+
+jobs:
+  Explore-GitHub-Actions:
+    # You need to use the INSTALLATION_NAME from the previous step
+    runs-on: cllouud-org-ascendci-kann-repo7
+    steps:
+    - run: echo "🎉 This job uses runner scale set runners!"
+    - run: sleep 300
